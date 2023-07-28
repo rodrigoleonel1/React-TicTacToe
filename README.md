@@ -1,8 +1,20 @@
-# React + Vite
+<h1>⭕ Tic-Tac-Toe ❌</h1> 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Mini project creating the Tic-Tac-Toe game in React JS with Vite</p>
 
-Currently, two official plugins are available:
+<h2>🛠️ Tools</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p>
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> 
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
+    <img src="https://www.svgrepo.com/show/374167/vite.svg" alt="vitejs" width="40" height="40"/>
+</p>
+
+<h2>📄 Page preview </h2>
+
+<p align="center">
+    <img src="./public/preview1.jpg" alt="preview tic tac toc react" height="300"/>
+    <img src="./public/preview2.jpg" alt="preview tic tac toc react" height="300"/>
+    <img src="./public/preview3.jpg" alt="preview tic tac toc react" height="300"/>
+</p>
+

@@ -1,5 +1,5 @@
-export const Square = ({ children, isSelected, updateBoard, index, color, hover}) => {
-    const className = `square ${color} ${hover} ${isSelected ? `is-selected` : ''}`
+export const Square = ({ children, isSelected, updateBoard, index, color, hover, turn}) => {
+    const className = `square ${color} ${hover} ${isSelected ? `is-selected ${turn}` : ''}`
   
     const handleClick = () => {
       updateBoard(index)

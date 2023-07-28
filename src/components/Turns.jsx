@@ -6,11 +6,11 @@ import { TURNS } from "../constants.js"
 export const Turns = ({ turn, resetGame }) => {
   return (
     <section className='turn'>
-      <Square color="red" isSelected={turn == TURNS.X}>
+      <Square turn="red" isSelected={turn == TURNS.X}>
         {TURNS.X}
       </Square>
       <Button resetGame={resetGame} />
-      <Square color="blue" isSelected={turn == TURNS.O}>
+      <Square turn="blue" isSelected={turn == TURNS.O}>
         {TURNS.O}
       </Square>
     </section>
