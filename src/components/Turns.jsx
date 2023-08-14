@@ -1,11 +1,10 @@
-import { Square } from "./Square.jsx"
-import { Button } from './Button.jsx'
-import { TURNS } from "../constants.js"
-
+import { Square } from "./Square.jsx";
+import { Button } from "./Button.jsx";
+import { TURNS } from "../constants.js";
 
 export const Turns = ({ turn, resetGame }) => {
   return (
-    <section className='turn'>
+    <section className="turn">
       <Square turn="red" isSelected={turn == TURNS.X}>
         {TURNS.X}
       </Square>
@@ -14,5 +13,5 @@ export const Turns = ({ turn, resetGame }) => {
         {TURNS.O}
       </Square>
     </section>
-  )
-}
+  );
+};
